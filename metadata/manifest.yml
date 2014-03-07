@@ -7,6 +7,7 @@ Description: The leading open source Java EE6 application server for enterprise 
 Version: '7'
 License: LGPL
 License-Url: http://www.gnu.org/copyleft/lesser.txt
+Source-Url: https://github.com/ihorman/openshift-jelastic-jboss7.git
 Vendor: Red Hat
 Cartridge-Version: 0.0.9
 Cartridge-Vendor: redhat
