@@ -1,0 +1,43 @@
+2014/03/06 08:06:02,537 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013100: Current PicketBox version=4.0.6.final
+2014/03/06 08:06:04,164 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+2014/03/06 08:06:04,188 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 38) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be pasivated.
+2014/03/06 08:06:04,200 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 38) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be pasivated.
+2014/03/06 08:06:04,326 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2014/03/06 08:06:04,479 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2014/03/06 08:06:05,114 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.2)
+2014/03/06 08:06:05,405 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on /127.1.245.129:4447
+2014/03/06 08:06:06,523 INFO  [org.jboss.jaxr] (MSC service thread 1-1) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+2014/03/06 08:06:07,186 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) Starting Coyote HTTP/1.1 on http--127.1.245.129-8080
+2014/03/06 08:06:07,194 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2014/03/06 08:06:07,697 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.1.0.Final
+2014/03/06 08:06:10,550 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+2014/03/06 08:06:10,935 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory /var/lib/openshift/53189cd8ddce949bf8000016/jbossas/standalone/deployments
+2014/03/06 08:06:11,045 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/var/lib/openshift/53189cd8ddce949bf8000016/jbossas/standalone/data/messagingjournal,bindingsDirectory=/var/lib/openshift/53189cd8ddce949bf8000016/jbossas/standalone/data/messagingbindings,largeMessagesDirectory=/var/lib/openshift/53189cd8ddce949bf8000016/jbossas/standalone/data/messaginglargemessages,pagingDirectory=/var/lib/openshift/53189cd8ddce949bf8000016/jbossas/standalone/data/messagingpaging)
+2014/03/06 08:06:11,064 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) Waiting to obtain live lock
+2014/03/06 08:06:11,211 INFO  [org.hornetq.core.persistence.impl.journal.JournalStorageManager] (MSC service thread 1-2) Using AIO Journal
+2014/03/06 08:06:11,335 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+2014/03/06 08:06:11,342 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2014/03/06 08:06:11,367 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-2) Waiting to obtain live lock
+2014/03/06 08:06:11,368 INFO  [org.hornetq.core.server.impl.AIOFileLockNodeManager] (MSC service thread 1-2) Live Server Obtained live lock
+2014/03/06 08:06:11,768 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-2) Started Netty Acceptor version 3.6.2.Final-unknown 127.1.245.129:5445 for CORE protocol
+2014/03/06 08:06:11,782 INFO  [org.hornetq.core.remoting.impl.netty.NettyAcceptor] (MSC service thread 1-2) Started Netty Acceptor version 3.6.2.Final-unknown 127.1.245.129:5455 for CORE protocol
+2014/03/06 08:06:11,785 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) Server is now live
+2014/03/06 08:06:11,786 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) HornetQ Server version 2.2.13.Final (HQ_2_2_13_FINAL_AS7, 122) [3c1372fa-a549-11e3-8229-080027c47ee0]) started
+2014/03/06 08:06:11,830 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2014/03/06 08:06:11,831 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/RemoteConnectionFactory
+2014/03/06 08:06:11,836 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2014/03/06 08:06:11,838 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-1) trying to deploy queue jms.queue.testQueue
+2014/03/06 08:06:11,907 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:/queue/test
+2014/03/06 08:06:11,908 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/test
+2014/03/06 08:06:11,913 INFO  [org.hornetq.core.server.impl.HornetQServerImpl] (MSC service thread 1-2) trying to deploy queue jms.topic.testTopic
+2014/03/06 08:06:11,954 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:/topic/test
+2014/03/06 08:06:11,955 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/topic/test
+2014/03/06 08:06:12,039 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+2014/03/06 08:06:12,060 INFO  [org.hornetq.ra.HornetQResourceAdapter] (MSC service thread 1-2) HornetQ resource adaptor started
+2014/03/06 08:06:12,063 INFO  [org.jboss.as.connector.services.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2014/03/06 08:06:12,070 INFO  [org.jboss.as.deployment.connector] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2014/03/06 08:06:12,112 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "ROOT.war"
+2014/03/06 08:06:13,875 INFO  [org.jboss.web] (MSC service thread 1-1) JBAS018210: Registering web context: 
+2014/03/06 08:06:13,894 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015951: Admin console listening on http://127.1.245.129:9990
+2014/03/06 08:06:13,894 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 20526ms - Started 212 of 331 services (116 services are passive or on-demand)
+2014/03/06 08:06:14,021 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "ROOT.war"
