@@ -1,0 +1,8 @@
+
+org/jboss
+META-INF/maven
+org/jboss/logging
+META-INF/maven/org.jboss.logging
+org
+META-INF
+META-INF/maven/org.jboss.logging/jboss-logging
