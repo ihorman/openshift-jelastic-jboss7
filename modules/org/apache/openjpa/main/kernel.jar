@@ -1,1 +1,1 @@
-/usr/share/java/openjpa/openjpa-persistence-jdbc.jar:/usr/share/java/openjpa/openjpa-persistence.jar:/usr/share/java/openjpa/openjpa-lib.jar:/usr/share/java/openjpa/openjpa-slice.jar:/usr/share/java/openjpa/openjpa-persistence-locking.jar:/usr/share/java/openjpa/openjpa-jest.jar:/usr/share/java/openjpa/openjpa-xmlstore.jar:/usr/share/java/openjpa/openjpa-kernel.jar:/usr/share/java/openjpa/openjpa-jdbc.jar
+openjpa-kernel.jar
