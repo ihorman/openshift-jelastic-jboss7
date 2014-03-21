@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Simple deploy and undeploy scenarios for Jetty8
+# Simple deploy and undeploy scenarios for JBoss7
 
 WGET=$(which wget);
 
