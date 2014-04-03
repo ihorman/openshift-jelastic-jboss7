@@ -269,7 +269,6 @@ function deploy() {
 }
 
 function start() {
-return 0
   echo "Starting $cartridge_type cartridge"
 
   if marker_present "enable_jpda"
