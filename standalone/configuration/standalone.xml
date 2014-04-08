@@ -39,11 +39,18 @@
     </system-properties>
 
     <management>
+        <security-realms>
+            <security-realm name="ManagementRealm">
+                <authentication>
+                    <properties path="mgmt-users.properties" relative-to="jboss.server.config.dir"/>
+                </authentication>
+            </security-realm>
+        </security-realms>
         <management-interfaces>
-            <native-interface>
+            <native-interface security-realm="ManagementRealm">
                 <socket-binding native="management-native"/>
             </native-interface>
-            <http-interface>
+            <http-interface security-realm="ManagementRealm">
                 <socket-binding http="management-http"/>
             </http-interface>
         </management-interfaces>
