@@ -1,0 +1,13 @@
+
+org/jboss/classfilewriter/constpool
+org/jboss/classfilewriter/attributes
+org/jboss/classfilewriter/code
+META-INF/maven
+org/jboss
+org/jboss/classfilewriter/annotations
+org/jboss/classfilewriter
+META-INF/maven/org.jboss.classfilewriter
+org
+META-INF
+org/jboss/classfilewriter/util
+META-INF/maven/org.jboss.classfilewriter/jboss-classfilewriter

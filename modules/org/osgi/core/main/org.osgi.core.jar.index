@@ -1,0 +1,17 @@
+
+org/osgi/framework/launch
+org/osgi
+org/osgi/framework/hooks
+META-INF/maven
+org/osgi/service/url
+org/osgi/service
+org/osgi/framework
+org
+org/osgi/framework/hooks/service
+META-INF
+META-INF/maven/org.apache.felix/org.osgi.core
+org/osgi/service/condpermadmin
+org/osgi/service/packageadmin
+org/osgi/service/startlevel
+META-INF/maven/org.apache.felix
+org/osgi/service/permissionadmin
