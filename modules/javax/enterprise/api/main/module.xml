@@ -30,7 +30,7 @@
     </dependencies>
 
     <resources>
-        <resource-root path="cdi-api.jar"/>
+        <resource-root path="cdi-api-1.0-SP4.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="javax.wsdl4j.api">
     <resources>
-        <resource-root path="wsdl4j.jar"/>
+        <resource-root path="wsdl4j-1.6.2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

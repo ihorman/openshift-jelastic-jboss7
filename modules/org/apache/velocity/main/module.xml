@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="velocity.jar"/>
+        <resource-root path="velocity-1.6.3.jar"/>
         <!-- Insert resources here -->
     </resources>
 

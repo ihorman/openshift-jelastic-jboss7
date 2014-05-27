@@ -25,8 +25,8 @@
 <module xmlns="urn:jboss:module:1.1" name="org.hornetq">
     <resources>
         <resource-root path="lib"/>
-        <resource-root path="hornetq-core.jar"/>
-        <resource-root path="hornetq-jms.jar"/>
+        <resource-root path="hornetq-core-2.2.21.Final.jar"/>
+        <resource-root path="hornetq-jms-2.2.21.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -39,5 +39,7 @@
         <module name="org.jboss.jboss-transaction-spi"/>
         <!--this reverse dependency is here so integration classes in the AS code base can be instantiated by HornetQ-->
         <module name="org.jboss.as.messaging"/>
+        <!-- https://issues.jboss.org/browse/AS7-4936  this is to avoid an issue on IBM JDK -->
+        <module name="sun.jdk"/>
     </dependencies>
 </module>

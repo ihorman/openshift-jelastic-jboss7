@@ -32,6 +32,7 @@
 
     <dependencies>
         <module name="javax.api" export="true"/>
+        <module name="javax.jws.api" export="true"/>
         <module name="javax.wsdl4j.api" export="true"/>
         <module name="javax.xml.ws.api" export="true"/>
         <module name="com.sun.xml.bind" services="export" export="true"/>
@@ -60,7 +61,7 @@
           </exports>
         </module>
         <module name="org.jboss.ws.cxf.jbossws-cxf-server" services="export" export="true"/>
-        <!-- Do not import services from cxf module direclty, those need to come from jbossws -->
+        <!-- Do not import services from cxf module directly, those need to come from jbossws -->
         <module name="org.apache.cxf.impl" export="true">
           <imports>
             <include path="META-INF/cxf"/>

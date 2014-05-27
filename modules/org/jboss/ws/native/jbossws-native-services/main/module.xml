@@ -29,7 +29,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jbossws-native-services.jar"/>
+        <resource-root path="jbossws-native-services-4.0.5.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

@@ -29,7 +29,7 @@
     </properties>
 
     <resources>
-        <resource-root path="slf4j-jboss-logmanager.jar"/>
+        <resource-root path="slf4j-jboss-logmanager-1.0.0.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 

@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="xml-commons-resolver-1.2.jar"/>
+        <resource-root path="xml-resolver-1.2.jar"/>
         <!-- Insert resources here -->
     </resources>
     <dependencies>

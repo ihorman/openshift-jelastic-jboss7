@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="javax.inject.api">
     <resources>
-        <resource-root path="atinject.jar"/>
+        <resource-root path="javax.inject-1.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

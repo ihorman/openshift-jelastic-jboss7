@@ -27,7 +27,6 @@
             <paths>
                 <path name="javax/accessibility"/>
                 <path name="javax/activity"/>
-                <path name="javax/activation"/>
                 <path name="javax/crypto"/>
                 <path name="javax/crypto/interfaces"/>
                 <path name="javax/crypto/spec"/>
@@ -38,7 +37,6 @@
                 <path name="javax/imageio/plugins/jpeg"/>
                 <path name="javax/imageio/spi"/>
                 <path name="javax/imageio/stream"/>
-                <path name="javax/jws"/>
                 <path name="javax/lang/model"/>
                 <path name="javax/lang/model/element"/>
                 <path name="javax/lang/model/type"/>
@@ -101,6 +99,12 @@
                 <path name="javax/swing/undo"/>
                 <path name="javax/tools"/>
                 <path name="javax/xml"/>
+                <path name="javax/xml/crypto"/>
+                <path name="javax/xml/crypto/dom"/>
+                <path name="javax/xml/crypto/dsig"/>
+                <path name="javax/xml/crypto/dsig/dom"/>
+                <path name="javax/xml/crypto/dsig/keyinfo"/>
+                <path name="javax/xml/crypto/dsig/spec"/>
                 <path name="javax/xml/datatype"/>
                 <path name="javax/xml/namespace"/>
                 <path name="javax/xml/parsers"/>

@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jbossxb.jar"/>
+        <resource-root path="jbossxb-2.0.3.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 

@@ -28,8 +28,8 @@
     </properties>
 
     <resources>
-        <resource-root path="jbosgi-repository-api.jar"/>
-        <resource-root path="jbosgi-repository-core.jar"/>
+        <resource-root path="jbosgi-repository-api-1.2.0.Final.jar"/>
+        <resource-root path="jbosgi-repository-core-1.2.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -37,6 +37,7 @@
         <module name="org.jboss.logging"/>
         <module name="org.jboss.modules"/>
         <module name="org.jboss.osgi.framework"/>
+        <module name="org.jboss.osgi.resolver"/>
         <module name="org.osgi.core"/>
     </dependencies>
 </module>

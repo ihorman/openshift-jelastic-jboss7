@@ -29,13 +29,14 @@
     </properties>
 
     <resources>
-        <resource-root path="jbossws-cxf-server.jar"/>
+        <resource-root path="jbossws-cxf-server-4.0.5.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="javax.api" />
         <module name="javax.servlet.api" />
+        <module name="javax.jws.api" />
         <module name="javax.wsdl4j.api" />
         <module name="javax.xml.bind.api" />
         <module name="javax.xml.stream.api" />

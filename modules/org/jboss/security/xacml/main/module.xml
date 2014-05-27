@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="picketbox-xacml.jar"/>
+        <resource-root path="jbossxacml-2.0.8.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

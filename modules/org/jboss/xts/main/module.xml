@@ -25,9 +25,9 @@
 <module xmlns="urn:jboss:module:1.1" name="org.jboss.xts">
 
     <resources>
-        <resource-root path="jbossxts.jar"/>
-        <resource-root path="jbossxts-api.jar"/>
-        <resource-root path="jbosstxbridge.jar"/>
+        <resource-root path="jbossxts-4.16.4.Final.jar"/>
+        <resource-root path="jbossxts-api-4.16.4.Final.jar"/>
+        <resource-root path="jbosstxbridge-4.16.4.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -44,6 +44,11 @@
         <module name="javax.xml.stream.api"/>
         <!-- this is needed to get javax.xml.namespace.QName but it would be better if it were exposed on its own -->
         <module name="javax.api"/>
+        <!-- this is needed because our endpoints are not in a normal deployment and we need to be able
+            to resolve the javax.jws.WebService annotation attached to them. presumably an endpoint
+            found in a deployment gets this package auto-added to its module loader
+            -->
+        <module name="javax.jws.api"/>
         <!-- this is needed to ensure @Resource annotations on the JaxWS endpoint classes are in the
              classloader scope-->
         <module name="javax.annotation.api"/>

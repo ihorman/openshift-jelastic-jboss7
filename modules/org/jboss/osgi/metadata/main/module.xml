@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jbosgi-metadata.jar"/>
+        <resource-root path="jbosgi-metadata-2.1.0.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

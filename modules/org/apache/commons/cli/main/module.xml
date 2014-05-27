@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="apache-commons-cli.jar"/>
+        <resource-root path="commons-cli-1.2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

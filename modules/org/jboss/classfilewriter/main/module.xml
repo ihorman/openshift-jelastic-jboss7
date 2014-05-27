@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-classfilewriter.jar"/>
+        <resource-root path="jboss-classfilewriter-1.0.3.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.apache.commons.configuration">
     <resources>
-        <resource-root path="commons-configuration.jar"/>
+        <resource-root path="commons-configuration-1.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 

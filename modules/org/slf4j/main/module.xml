@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.slf4j">
     <resources>
-        <resource-root path="slf4j-api.jar"/>
+        <resource-root path="slf4j-api-1.6.1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

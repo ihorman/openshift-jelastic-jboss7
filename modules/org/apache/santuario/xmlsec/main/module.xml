@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="xml-security.jar"/>
+        <resource-root path="xmlsec-1.5.2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

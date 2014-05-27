@@ -28,9 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="apache-mime4j-core.jar"/>
-        <resource-root path="apache-mime4j-dom.jar"/>
-        <resource-root path="apache-mime4j-storage.jar"/>
+        <resource-root path="apache-mime4j-0.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 

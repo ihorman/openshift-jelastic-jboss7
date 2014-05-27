@@ -32,7 +32,7 @@
     </dependencies>
 
     <resources>
-        <resource-root path="jboss-jsf-2.1-api.jar"/>
+        <resource-root path="jsf-api-1.2_15-jbossorg-2.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

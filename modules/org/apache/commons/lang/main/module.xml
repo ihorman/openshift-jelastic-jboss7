@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="apache-commons-lang.jar"/>
+        <resource-root path="commons-lang-2.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 

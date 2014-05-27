@@ -25,7 +25,7 @@
 <module xmlns="urn:jboss:module:1.1" name="org.osgi.core">
 
     <resources>
-        <resource-root path="org.osgi.core.jar"/>
+        <resource-root path="org.osgi.core-4.2.0.jar"/>
         <!-- Insert resources here -->
     </resources>
 

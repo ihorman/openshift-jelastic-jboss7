@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="guava.jar"/>
+        <resource-root path="guava-11.0.2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

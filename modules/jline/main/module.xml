@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jline.jar"/>
+        <resource-root path="jline-0.9.94.jar"/>
         <!-- Insert resources here -->
     </resources>
 

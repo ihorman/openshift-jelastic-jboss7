@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jbossjts.jar"/>
+        <resource-root path="jbossjts-4.16.4.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

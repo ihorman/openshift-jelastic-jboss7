@@ -26,13 +26,14 @@
 
 
     <dependencies>
+        <module name="javax.activation.api" export="true"/>
         <module name="javax.xml.stream.api"/>
         <module name="com.sun.xml.bind" services="import"/>
         <module name="javax.api"/>
     </dependencies>
 
     <resources>
-        <resource-root path="jboss-jaxb-2.2-api.jar"/>
+        <resource-root path="jboss-jaxb-api_2.2_spec-1.0.4.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

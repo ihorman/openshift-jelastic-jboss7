@@ -24,11 +24,12 @@
 
 <module xmlns="urn:jboss:module:1.1" name="javax.mail.api">
     <dependencies>
+        <module name="javax.activation.api" />
         <module name="javax.api"/>
     </dependencies>
 
     <resources>
-        <resource-root path="mail.jar"/>
+        <resource-root path="mail-1.4.4.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

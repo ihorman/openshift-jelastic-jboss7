@@ -28,9 +28,9 @@
     </properties>
 
     <resources>
-        <resource-root path="httpclient.jar"/>
-        <resource-root path="httpcore.jar"/>
-        <resource-root path="httpmime.jar"/>
+        <resource-root path="httpclient-4.1.2.jar"/>
+        <resource-root path="httpcore-4.1.4.jar"/>
+        <resource-root path="httpmime-4.1.2.jar"/>
         <!-- Insert resources here -->
     </resources>
 

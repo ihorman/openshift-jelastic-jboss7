@@ -27,8 +27,8 @@
     </properties>
 
     <resources>
-        <resource-root path="woodstox-core.jar"/>
-        <resource-root path="stax2-api.jar"/>
+        <resource-root path="woodstox-core-asl-4.1.1.jar"/>
+        <resource-root path="stax2-api-3.1.1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

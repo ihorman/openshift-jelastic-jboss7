@@ -33,7 +33,7 @@
     </dependencies>
 
     <resources>
-        <resource-root path="jboss-connector-1.6-api.jar"/>
+        <resource-root path="jboss-connector-api_1.6_spec-1.0.1.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

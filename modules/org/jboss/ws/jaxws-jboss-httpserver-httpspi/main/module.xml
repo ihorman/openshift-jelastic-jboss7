@@ -29,7 +29,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jaxws-jboss-httpserver-httpspi.jar"/>
+        <resource-root path="jaxws-jboss-httpserver-httpspi-1.0.1.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 

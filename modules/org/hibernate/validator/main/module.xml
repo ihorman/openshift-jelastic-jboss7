@@ -24,12 +24,11 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.hibernate.validator">
   <resources>
-    <resource-root path="hibernate-validator.jar"/>
+    <resource-root path="hibernate-validator-4.2.0.Final.jar"/>
         <!-- Insert resources here -->
   </resources>
 
   <dependencies>
-    <module name="com.googlecode.jtype"/>
     <module name="javax.api"/>
     <module name="javax.persistence.api"/>
     <module name="javax.validation.api"/>

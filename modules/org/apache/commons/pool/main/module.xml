@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="apache-commons-pool.jar"/>
+        <resource-root path="commons-pool-1.5.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 

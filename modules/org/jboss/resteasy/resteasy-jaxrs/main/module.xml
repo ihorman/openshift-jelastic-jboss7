@@ -28,15 +28,16 @@
     </properties>
 
     <resources>
-        <resource-root path="async-http-servlet-3.0.jar"/>
-        <resource-root path="resteasy-jaxrs.jar"/>
-	<resource-root path="resteasy-jaxrs-jandex.jar"/>
+        <resource-root path="async-http-servlet-3.0-2.3.3.Final.jar"/>
+        <resource-root path="resteasy-jaxrs-2.3.3.Final.jar"/>
+	<resource-root path="resteasy-jaxrs-2.3.3.Final-jandex.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="javax.api"/>
         <module name="javax.annotation.api"/>
+        <module name="javax.activation.api"/>
         <module name="javax.ws.rs.api"/>
         <module name="org.apache.commons.codec" />
         <module name="org.apache.httpcomponents" />

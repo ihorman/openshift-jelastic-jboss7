@@ -25,11 +25,12 @@
 <module xmlns="urn:jboss:module:1.1" name="org.jgroups">
 
     <resources>
-        <resource-root path="jgroups.jar"/>
+        <resource-root path="jgroups-3.0.14.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="javax.api"/>
+        <module name="org.jboss.as.clustering.jgroups"/>
     </dependencies>
 </module>

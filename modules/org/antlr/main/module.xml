@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="antlr.jar"/>
+        <resource-root path="antlr-2.7.7.jar"/>
         <!-- Insert resources here -->
     </resources>
 

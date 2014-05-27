@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.slf4j.ext">
     <resources>
-        <resource-root path="slf4j-ext.jar"/>
+        <resource-root path="slf4j-ext-1.6.1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

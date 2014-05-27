@@ -102,11 +102,6 @@ if [ "$PRESERVE_JAVA_OPTS" != "true" ]; then
         if [ "x$NO_COMPRESSED_OOPS" = "x" ]; then
             "$JAVA" $JVM_OPTVERSION -server -XX:+UseCompressedOops -version >/dev/null 2>&1 && PREPEND_JAVA_OPTS="$PREPEND_JAVA_OPTS -XX:+UseCompressedOops"
         fi
-
-        NO_TIERED_COMPILATION=`echo $JAVA_OPTS | $GREP "\-XX:\-TieredCompilation"`
-        if [ "x$NO_TIERED_COMPILATION" = "x" ]; then
-            "$JAVA" $JVM_OPTVERSION -server -XX:+TieredCompilation -version >/dev/null 2>&1 && PREPEND_JAVA_OPTS="$PREPEND_JAVA_OPTS -XX:+TieredCompilation"
-        fi
     fi
 
     JAVA_OPTS="$PREPEND_JAVA_OPTS $JAVA_OPTS"
@@ -152,9 +147,10 @@ fi
 if $cygwin; then
     JBOSS_HOME=`cygpath --path --windows "$JBOSS_HOME"`
     JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
-    JBOSS_CLASSPATH=`cygpath --path --windows "$JBOSS_CLASSPATH"`
-    JBOSS_ENDORSED_DIRS=`cygpath --path --windows "$JBOSS_ENDORSED_DIRS"`
     JBOSS_MODULEPATH=`cygpath --path --windows "$JBOSS_MODULEPATH"`
+    JBOSS_BASE_DIR=`cygpath --path --windows "$JBOSS_BASE_DIR"`
+    JBOSS_LOG_DIR=`cygpath --path --windows "$JBOSS_LOG_DIR"`
+    JBOSS_CONFIG_DIR=`cygpath --path --windows "$JBOSS_CONFIG_DIR"`
 fi
 
 # Display our environment
@@ -182,6 +178,7 @@ while true; do
          -jaxpmodule "javax.xml.jaxp-provider" \
          org.jboss.as.standalone \
          -Djboss.home.dir=\"$JBOSS_HOME\" \
+         -Djboss.server.base.dir=\"$JBOSS_BASE_DIR\" \
          "$@"
       JBOSS_STATUS=$?
    else
@@ -194,6 +191,7 @@ while true; do
          -jaxpmodule "javax.xml.jaxp-provider" \
          org.jboss.as.standalone \
          -Djboss.home.dir=\"$JBOSS_HOME\" \
+         -Djboss.server.base.dir=\"$JBOSS_BASE_DIR\" \
          "$@" "&"
       JBOSS_PID=$!
       # Trap common signals and relay them to the jboss process

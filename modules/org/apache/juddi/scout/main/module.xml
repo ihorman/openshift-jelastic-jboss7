@@ -25,7 +25,7 @@
 <module xmlns="urn:jboss:module:1.0" name="org.apache.juddi.scout">
 
     <resources>
-        <resource-root path="apache-scout.jar"/>
+        <resource-root path="scout-1.2.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 

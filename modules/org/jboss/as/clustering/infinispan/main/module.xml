@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-clustering-infinispan-7.1.1.Final.jar"/>
+        <resource-root path="jboss-as-clustering-infinispan-7.1.3.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -39,8 +39,11 @@
         <module name="org.infinispan"/>
         <module name="org.infinispan.cachestore.jdbc"/>
         <module name="org.infinispan.cachestore.remote" />
+        <module name="org.jboss.as.clustering.api"/>
         <module name="org.jboss.as.clustering.common"/>
+        <module name="org.jboss.as.clustering.impl" services="import"/>
         <module name="org.jboss.as.clustering.jgroups" optional="true"/>
+        <module name="org.jboss.as.clustering.service" services="import"/>
         <module name="org.jboss.as.controller"/>
         <module name="org.jboss.as.ee"/>
         <module name="org.jboss.as.jmx"/>
@@ -52,6 +55,7 @@
         <module name="org.jboss.jboss-transaction-spi"/>
         <module name="org.jboss.logging"/>
         <module name="org.jboss.marshalling"/>
+        <module name="org.jboss.modules"/>
         <module name="org.jboss.msc"/>
         <module name="org.jboss.staxmapper"/>
         <module name="org.jboss.threads"/>

@@ -24,7 +24,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="javax.annotation.api">
     <resources>
-        <resource-root path="jboss-annotations-1.1-api.jar"/>
+        <resource-root path="jboss-annotations-api_1.1_spec-1.0.1.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 </module>

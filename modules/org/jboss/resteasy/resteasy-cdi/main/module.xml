@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="resteasy-cdi.jar"/>
+        <resource-root path="resteasy-cdi-2.3.3.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

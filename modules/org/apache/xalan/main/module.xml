@@ -25,8 +25,8 @@
 <module xmlns="urn:jboss:module:1.1" name="org.apache.xalan">
 
     <resources>
-        <resource-root path="xalan-j2-serializer.jar"/>
-        <resource-root path="xalan-j2.jar"/>
+        <resource-root path="serializer-2.7.1.jbossorg-1.jar"/>
+        <resource-root path="xalan-2.7.1.jbossorg-1.jar"/>
         <!-- Insert resources here -->
     </resources>
 

@@ -23,12 +23,8 @@
   -->
 
 <module xmlns="urn:jboss:module:1.1" name="org.apache.ws.security">
-    <properties>
-        <property name="jboss.api" value="private"/>
-    </properties>
-
     <resources>
-        <resource-root path="wss4j.jar"/>
+        <resource-root path="wss4j-1.6.6.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -39,6 +35,5 @@
       <module name="org.apache.santuario.xmlsec" />
       <module name="org.apache.xalan" />
       <module name="org.joda.time" />
-      <module name="org.opensaml" />
     </dependencies>
 </module>

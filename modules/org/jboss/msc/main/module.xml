@@ -27,7 +27,7 @@
     <main-class name="org.jboss.msc.Version"/>
 
     <resources>
-        <resource-root path="jboss-msc.jar"/>
+        <resource-root path="jboss-msc-1.0.2.GA.jar"/>
         <!-- Insert resources here -->
     </resources>
 
